@@ -1,0 +1,23 @@
+{
+  "name": "insomnia-plugin-wbxml-decoder",
+  "version": "1.0.0",
+  "main": "app.js",
+  "insomnia": {
+    "name": "wbxml-decoder",
+    "displayName": "WBXML Decoder",
+    "description": "The plugin decodes binary WBXML output and displays it in readable format.",
+    "publisher": {
+      "name": "Hannes Romppainen",
+      "icon": "https://www.gravatar.com/avatar/e0f8122d6f0e09db6cdf94e93b308814"
+    },
+    "unlisted": true
+  },
+  "scripts": {
+    "local-deploy": "mkdir -p ~/.config/Insomnia/plugins/wbxml-decoder && cp -r * ~/.config/Insomnia/plugins/wbxml-decoder"
+  },
+  "dependencies": {
+    "wbxml": "0.0.1"
+  },
+  "devDependencies": {
+  }
+}
